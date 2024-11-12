@@ -1,0 +1,63 @@
+@import url(fonts.css);
+@import url(predefine-classes.css);
+nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #e6f2f5;
+}
+
+.main-img {
+    background-image: url('../images/homepage.png');
+}
+
+.footer-img {
+    background-image: url('../images/footer-picture.png');
+}
+
+.home-page {
+    padding-top: 100px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+    /* Optional: This removes any shadow effect */
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    border-bottom: 2px solid #000 !important;
+    padding-bottom: 2px !important;
+}
+
+@media (max-width: 991.98px) {
+    .card-home {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .textleft {
+        text-align: left !important;
+    }
+    .footer-logo {
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .home-page {
+        padding-top: 97px;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-img {
+        background-image: url('../images/home-page-mobile.png');
+    }
+    .footer-img {
+        background-image: url('../images/footer-picture-mobile.png');
+    }
+}
