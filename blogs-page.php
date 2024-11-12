@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,11 +21,7 @@
     <!-- Owl Carousel css file-->
     <link rel="stylesheet" href="./OwlCarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./OwlCarousel/dist/assets/owl.theme.default.min.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
-        referrerpolicy="no-referrer" /> -->
-    <!-- link coustom css file  -->
+    <!-- custom css file -->
     <link rel="stylesheet" href="css/style.css">
     <!-- link favicon  -->
     <link rel="shortcut icon" href="./logos/favicon_green.svg" type="image/x-icon">
@@ -40,26 +40,26 @@
             <div class="collapse navbar-collapse m-auto justify-content-center align-items-center" id="navbarNavDropdown">
                 <ul class="navbar-nav align-items-center m-auto">
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./index.html">Home </a>
+                        <a class="nav-link" href="./index.php">Home </a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./services-page.html">Services</a>
+                        <a class="nav-link" href="./services-page.php">Services</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./about-us.html">About Us</a>
+                        <a class="nav-link" href="./about-us.php">About Us</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./portfolio-page.html">Portfolio</a>
+                        <a class="nav-link" href="./portfolio-page.php">Portfolio</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./blogs-page.html">Blogs</a>
+                        <a class="nav-link" href="./blogs-page.php">Blogs</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./contact-us.html">Contact Us</a>
+                        <a class="nav-link" href="./contact-us.php">Contact Us</a>
                     </li>
                 </ul>
                 <div class="navbar-button-div d-flex justify-content-center align-items-center">
-                    <a href="./contact-us.html" class="poppins-regular text-light-blue navbar-button">
+                    <a href="./contact-us" class="poppins-regular text-light-blue navbar-button">
                         <button class="btn-type-2 text-white px-5 py-3">Schedule a Meeting</button>
                     </a>
                 </div>
@@ -71,221 +71,109 @@
 
     <div class="home-page">
 
-        <div class="container-fluid p-0 m-0 mb-1 bg-img main-img">
+        <div class="container-fluid p-0 m-0 bg-img main-img">
 
             <div class="container pt-xl-5 pt-lg-5 pt-md-3 pt-sm-2 pt-0 pb-8">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <h1 class="poppins-bold font-32px text-light-blue">Driving Innovation Through Technology and Expertise</h1>
-                        <p class="poppins-regular font-16px text-black">We empower businesses by delivering cutting-edge digital solutions that inspire growth and enhance customer experiences.</p>
+                        <h1 class="poppins-bold font-32px text-light-blue">Insights, Updates,<br>and Tech Trends</h1>
+                        <p class="poppins-regular font-16px text-black">Stay informed with our latest blog posts, covering industry insights, company updates, and emerging tech trends to keep you ahead.</p>
 
-                        <a href="./contact-us.html">
-                            <button class="btn-type-2 text-white px-5 py-3 my-xl-5 my-lg-5 my-md-5 my-sm-3 my-3">Schedule A Meeting</button>
+                        <a href="./contact-us">
+                            <button class="btn-type-2 text-white px-5 py-3 my-xl-2 my-lg-2 my-md-2 my-sm-2 my-2">Schedule A Meeting</button>
                         </a>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
-                        <img src="./images/about-us-page/about-us-main.png" style="width: auto; height: 100%;" alt="">
+                        <img src="./images/blogs-page/blog-page-main.png" style="width: auto; height: 100%;" alt="">
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <!-- ABOUT US SECTION -->
+        <!-- LATEST ARTICLE -->
+<!-- 
+        <div class="container py-4">
 
-        <div class="container py-8 d-flex flex-wrap flex-xl-row flex-lg-row flex-md-column-reverse flex-sm-column-reverse flex-column-reverse ">
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 pe-xl-4 pe-lg-4">
-                <img src="./images/about-us-picture.png" style="width: 100%; height: auto;" alt="about us">
-            </div>
+            <h2 class="poppins-bold font-32px text-light-blue">Latest Article</h2>
 
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ps-xl-4 ps-lg-4 pb-md-4 pb-sm-4 pb-xs-4 pb-4">
-                <p class="poppins-light font-16px font-black">About Us</p>
-                <h2 class="poppins-bold font-24px text-light-blue">Empowering Businesses with Innovative Tech Solutions</h2>
-                <p class="poppins-regular font-16px text-black text-justify">Spiral Tech provides a complete range of services to elevate your brand digitally. We create immersive, responsive websites that serve as your digital storefronts, captivating visitors and converting them into loyal customers. Our team
-                    brings ideas to life through interactive, user-friendly mobile applications, ensuring seamless experiences for your audience. Utilizing the power of online platforms, we enhance your brand's reach, engage your audience, and deliver
-                    measurable results. Whether it's web development, app creation, or digital marketing, our innovative solutions are designed to drive your business forward and achieve lasting success in the digital world.</p>
-                <button class="btn-type-2 px-5 py-3 text-white">Read More</button>
-            </div>
-        </div>
-
-        <!-- OUR MISSION & VISION -->
-
-        <div class="py-8">
-            <div class="container-fluid bg-light-gray">
-                <div class="container d-flex flex-wrap py-5 justify-content-between">
-                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center">
-                        <div class="col-10 mx-auto">
-                            <h3 class="poppins-bold font-32px text-light-blue text-center">Our Mission</h3>
-                            <p class="poppins-regular font-20px text-black text-center">At Spiral Tech, our mission is to raise Pakistan's tech literacy rate to 90% by providing innovative digital solutions. We aim to empower individuals and businesses through accessible technology, driving digital transformation
-                                nationwide.
-                            </p>
-                        </div>
-                    </div>
-
-                    <img src="./images/about-us-page/vertical-line.png" class="d-xl-inline d-lg-inline d-md-none d-sm-none d-none" alt="">
-                    <img src="./images/about-us-page/horizontal-line.png" class="d-xl-none d-lg-none d-md-inline d-sm-inline d-inline py-4 mx-auto" alt="">
-
-                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center">
-                        <div class="col-10 mx-auto">
-                            <h3 class="poppins-bold font-32px text-light-blue text-center">Our Vision</h3>
-                            <p class="poppins-regular font-20px text-black text-center">Our vision is to be a global leader in digital innovation, recognized for creating impactful tech solutions that enable sustainable growth and bridge the digital divide in Pakistan and beyond.</p>
-                        </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="card my-4 border-0 d-flex flex-xl-row flex-lg-row" style="width: 100%;">
+                    <img class="card-img-top" style="width:400px; height:225px;"src="
+                    
+                    
+                    " alt="Card image cap">
+                    <div class="card-body px-xl-3 px-lg-3 px-0 w-100">
+                        <h2 class="poppins-semibold font-32px text-light-blue"></h2>
+                        <p class="card-text"></p>
+                        <a href="" target="_blank">
+                            <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- START YOUR WORK -->
+        </div> -->
 
-        <div class="container py-8">
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mx-auto">
-                <p class="textleft text-center poppins-bold font-32px text-light-blue">How we start your work</p>
-                <p class="poppins-regular font-16px text-black text-center">Starting with a detailed consultation, we plan, design, develop, and test thoroughly, ensuring successful outcomes and continuous support</p>
-            </div>
+        <!-- POPULAR ARTICLES -->
 
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner mt-8">
+        <div class="container py-5">
+            <h2 class="poppins-bold font-32px text-light-blue">Popular Articles</h2>
 
-                    <div class="carousel-item active">
-                        <div class="container">
-                            <div class="row d-flex flex-wrap bg-light-blue bg-powder-blue py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3" style="border-radius: 25px;">
-                                <div class="your-work-left col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3 d-flex justify-content-center align-items-center">
-                                    <img src="./Images/planning.png" alt="planning">
-                                </div>
+            <div class="d-flex flex-wrap flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column">
 
-                                <div class="your-work-right col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3">
-                                    <div class="col-11 mx-auto">
-                                        <img src="./Images/one.png" class="pb-4" alt="one">
-                                        <h1 class="poppins-semibold two-rem dark-blue-text">Planning</h1>
-                                        <p class="poppins-regular one-rem black-text">During the planning phase, we define your project’s scope, gather requirements, and set clear objectives. This includes understanding your vision, outlining key features, and establishing timelines and milestones
-                                            to ensure a successful project execution. </p>
-                                        <button class="next-slide btn-type-2 px-5 py-3 text-white">Next</button>
-                                    </div>
-                                </div>
+            <?php
+$apiKey = 'AIzaSyCgI39KFW-afn8DDrmg9W-on_Mjoog6ajY';
+$blogId = '2152023608555043419';
+
+$url = "https://www.googleapis.com/blogger/v3/blogs/$blogId/posts?maxResults=3&key=$apiKey";
+$response = file_get_contents($url);
+$posts = json_decode($response, true);
+
+if (!function_exists('getFirstImage')) {
+    function getFirstImage($content) {
+        // Use regular expression to extract the first image from the post content
+        preg_match('/<img.+src=[\'"](?P<src>.+?)[\'"].*>/i', $content, $image);
+        return (!empty($image['src'])) ? $image['src'] : 'Images/port-mobile-8.png'; // Default if no image
+    }
+}
+if (!empty($posts['items'])) {
+    foreach ($posts['items'] as $post) {
+        $title = $post['title'];
+        $postId = $post['id'];
+        $content = $post['content'];
+        $postUrl = "blog_detail.php?id=" . $postId;
+        $thumbnail = getFirstImage($content);
+
+        echo'<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 pe-xl-2 pe-lg-2 pe-0">
+                    <div class="col-12 pe-xl-2 pe-lg-2 pe-0">
+                        <div class="card my-4" style="width: 100%;">
+                            <img class="card-img-top" src="'; echo $thumbnail; 
+                            echo'" alt="Card image cap">
+                            <div class="card-body">
+                                <h2 class="poppins-bold font-24px text-light-blue">';
+                                echo $title;
+                                echo'</h2>
+                                <p class="card-text">';
+                                  echo substr(strip_tags($content), 0, 40);
+                                echo'...</p>
+                                <a href="';echo $postUrl;echo'" target="_blank">
+                                    <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>';
+    }
+} else {
+    echo '<p>No blog posts available.</p>';
+}
+?>
 
-                    <div class="carousel-item">
-                        <div class="container">
-                            <div class="row d-flex flex-wrap bg-light-blue bg-powder-blue py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3" style="border-radius: 25px;">
-                                <div class="your-work-left col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3 d-flex justify-content-center align-items-center">
-                                    <img src="./Images/brainstroming.png" alt="brainstroming">
-                                </div>
 
-                                <div class="your-work-right col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3">
-                                    <div class="col-11 mx-auto">
-                                        <img src="./Images/two.png" class="pb-4" alt="two">
-                                        <h1 class="poppins-semibold two-rem dark-blue-text">Brainstorming</h1>
-                                        <p class="poppins-regular one-rem black-text">In the brainstorming phase, we collaborate to generate ideas and refine the project’s vision. We explore creative solutions, discuss features, and align on the overall direction to ensure the website meets your
-                                            goals and stands out.
-                                        </p>
-                                        <button class="next-slide btn-type-2 px-5 py-3 text-white">Next</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
 
-                    <div class="carousel-item">
-                        <div class="container">
-                            <div class="row d-flex flex-wrap bg-light-blue bg-powder-blue py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3" style="border-radius: 25px;">
-                                <div class="your-work-left col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3 d-flex justify-content-center align-items-center">
-                                    <img src="./Images/designing.png" alt="designing">
-                                </div>
-
-                                <div class="your-work-right col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3">
-                                    <div class="col-11 mx-auto">
-                                        <img src="./Images/three.png" class="pb-4" alt="three">
-                                        <h1 class="poppins-semibold two-rem dark-blue-text">Designing</h1>
-                                        <p class="poppins-regular one-rem black-text">In the designing phase, we create the visual and interactive elements of your website. This includes crafting intuitive UI/UX designs that ensure an engaging user experience. We develop wireframes and mockups to
-                                            bring your vision to life, focusing on aesthetics, usability, and brand consistency.</p>
-                                        <button class="next-slide btn-type-2 px-5 py-3 text-white">Next</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="container">
-                            <div class="row d-flex flex-wrap bg-light-blue bg-powder-blue py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3" style="border-radius: 25px;">
-                                <div class="your-work-left col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3 d-flex justify-content-center align-items-center">
-                                    <img src="./Images/development.png" alt="development">
-                                </div>
-
-                                <div class="your-work-right col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3">
-                                    <div class="col-11 mx-auto">
-                                        <img src="./Images/four.png" class="pb-4" alt="four">
-                                        <h1 class="poppins-semibold two-rem dark-blue-text">Development</h1>
-                                        <p class="poppins-regular one-rem black-text">During the development phase, we turn designs into a fully functional website. Our team codes the front-end and back-end, integrates necessary features, and ensures seamless performance. We follow best practices
-                                            to build a robust, scalable, and secure website tailored to your requirements.</p>
-                                        <button class="next-slide btn-type-2 px-5 py-3 text-white">Next</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="container">
-                            <div class="row d-flex flex-wrap bg-light-blue bg-powder-blue py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3" style="border-radius: 25px;">
-                                <div class="your-work-left col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3 d-flex justify-content-center align-items-center">
-                                    <img src="./Images/testing.png" alt="testing">
-                                </div>
-
-                                <div class="your-work-right col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3">
-                                    <div class="col-11 mx-auto">
-                                        <img src="./Images/five.png" class="pb-4" alt="five">
-                                        <h1 class="poppins-semibold two-rem dark-blue-text">Testing And Launch</h1>
-                                        <p class="poppins-regular one-rem black-text">In the testing and launching phase, we rigorously test your website for functionality, performance, and security. We fix any issues and ensure everything runs smoothly. Once approved, we launch your website, making
-                                            it live and accessible to your audience.</p>
-                                        <button class="next-slide btn-type-2 px-5 py-3 text-white">Next</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </a>
-            </div>
-        </div>
-
-        <!-- TESTIMONIAL SECTION -->
-
-        <div class="container py-8">
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mx-auto">
-                <p class="textleft text-center poppins-bold font-32px text-light-blue">What People Say About Us</p>
-                <p class="textleft poppins-regular font-16px text-black text-center">Read our clients' testimonials to learn how we've helped their businesses grow with our innovative and reliable tech solutions.</p>
-            </div>
-
-            <div class="owl-carousel owl-theme py-6">
-
-                <div class="item">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="test-img" style="width: 100%; height: auto;">
-                                <img src="./Images/findsVet.jpg" style="width: 100%; height: auto;" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="test-img" style="width: 100%; height: auto;">
-                                <img src="./Images/usama-momento.jpg" style="width: 100%; height: auto;" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
 
             </div>
         </div>
@@ -398,7 +286,7 @@
 
         <!-- CONTACT FORM -->
 
-        <div class="container d-flex flex-wrap py-8">
+        <div class="container d-flex flex-wrap">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="contact-form">
                     <p class="poppins-light font-16px text-black">Contact Us</p>
@@ -417,7 +305,7 @@
                         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                         <!-- Custom Confirmation / Success Page -->
-                        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+                        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks"> -->
 
                         <button class="poppins-semibold btn-type-2 px-5 py-3 font-16px text-white" type="submit">Send Message</button>
                     </form>
@@ -429,7 +317,6 @@
         </div>
 
         <!-- FOOTER -->
-
         <div class="container-fluid bg-img footer-img">
             <div class="container d-flex flex-wrap" style="padding-top: 10rem; ">
                 <div class="row pb-5">
@@ -453,11 +340,11 @@
                         <div class="ps-xl-5 ps-lg-5 ps-0">
                             <p class="poppins-semibold font-16px text-light-blue">Links</p>
                             <ul class="poppins-regular font-16px no-bullets">
-                                <li><a href="./index.html">Home</a></li>
-                                <li><a href="./services-page.html">Services</a></li>
-                                <li><a href="./about-us.html">About Us</a></li>
-                                <li><a href="./blogs-page.html">Blogs</a></li>
-                                <li><a href="./contact-us.html">Contact Us</a></li>
+                                <li><a href="./index">Home</a></li>
+                                <li><a href="./services-page">Services</a></li>
+                                <li><a href="./about-us">About Us</a></li>
+                                <li><a href="./blogs-page">Blogs</a></li>
+                                <li><a href="./contact-us">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -493,7 +380,7 @@
                             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                             <!-- Custom Confirmation / Success Page -->
-                            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+                            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks"> -->
 
                             <button class="btn-type-2 px-5 py-3 text-white my-1" type="submit">Join</button>
 
@@ -507,9 +394,8 @@
             </div>
         </div>
 
-
-
     </div>
+
 
 
 
@@ -564,6 +450,7 @@
             });
         });
     </script>
+
 
 </body>
 

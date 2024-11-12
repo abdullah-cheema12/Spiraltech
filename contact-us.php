@@ -36,26 +36,26 @@
             <div class="collapse navbar-collapse m-auto justify-content-center align-items-center" id="navbarNavDropdown">
                 <ul class="navbar-nav align-items-center m-auto">
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./index.html">Home </a>
+                        <a class="nav-link" href="./index.php">Home </a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./services-page.html">Services <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./services-page.php">Services</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./about-us.html">About Us</a>
+                        <a class="nav-link" href="./about-us.php">About Us</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./portfolio-page.html">Portfolio</a>
+                        <a class="nav-link" href="./portfolio-page.php">Portfolio</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./blogs-page.html">Blogs</a>
+                        <a class="nav-link" href="./blogs-page.php">Blogs</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./contact-us.html">Contact Us</a>
+                        <a class="nav-link" href="#contact-form">Contact Us</a>
                     </li>
                 </ul>
                 <div class="navbar-button-div d-flex justify-content-center align-items-center">
-                    <a href="./contact-us.html" class="poppins-regular text-light-blue navbar-button">
+                    <a href="#contact-form" class="poppins-regular text-light-blue navbar-button">
                         <button class="btn-type-2 text-white px-5 py-3">Schedule a Meeting</button>
                     </a>
                 </div>
@@ -69,90 +69,19 @@
 
         <div class="container-fluid p-0 m-0 bg-img main-img">
 
-            <div class="container pt-xl-5 pt-lg-5 pt-md-3 pt-sm-2 pt-0 pb-10">
+            <div class="container pt-xl-5 pt-lg-5 pt-md-3 pt-sm-2 pt-0 pb-8">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <h1 class="poppins-bold font-32px text-light-blue">Showcasing Our Success Stories Across Diverse Industries</h1>
-                        <p class="poppins-regular font-16px text-black">Explore our portfolio featuring innovative web designs, mobile apps, and tailored solutions that drive tangible results.</p>
+                        <h1 class="poppins-bold font-32px text-light-blue">Get in Touch with Spiral Tech for Tailored Solutions</h1>
+                        <p class="poppins-regular font-16px text-black">We're here to help your business thrive with customized digital services. Let's connect and start building success together.</p>
 
-                        <a href="./contact-us.html">
+                        <a href="#contact-form">
                             <button class="btn-type-2 text-white px-5 py-3 my-xl-5 my-lg-5 my-md-5 my-sm-3 my-3">Schedule A Meeting</button>
                         </a>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
-                        <img src="./images/portfolio-page/portfolio-page-main.png" style="width: auto; height: 100%;" alt="">
+                        <img src="./images/contact-us-page/contact-us-main.png" style="width: auto; height: 100%;" alt="">
                     </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- PORTFOLIO SECTION -->
-
-        <div class="container py-8 d-flex flex-wrap">
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                <img src="./images/portfolio-page/findsvet1.png" class="pe-xl-3 pe-lg-3 pe-md-0 pe-sm-0 pe-0 py-3" style="width: 100%; height: 100%;" alt="finds vet">
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                <img src="./images/portfolio-page/findsvet2.png" class="ps-xl-3 ps-lg-3 ps-md-0 ps-sm-0 ps-0 py-3" style="width: 100%; height: 100%;" alt="finds vet">
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                <img src="./images/portfolio-page/shiping.png" class="pe-xl-3 pe-lg-3 pe-md-0 pe-sm-0 pe-0 py-3" style="width: 100%; height: 100%;" alt="shipping company">
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                <img src="./images/portfolio-page/home.png" class="ps-xl-3 ps-lg-3 ps-md-0 ps-sm-0 ps-0 py-3" style="width: 100%; height: 100%;" alt="property company">
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                <img src="./images/portfolio-page/card.png" class="pe-xl-3 pe-lg-3 pe-md-0 pe-sm-0 pe-0 py-3" style="width: 100%; height: 100%;" alt="">
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                <img src="./images/portfolio-page/salon.png" class="ps-xl-3 ps-lg-3 ps-md-0 ps-sm-0 ps-0 py-3" style="width: 100%; height: 100%;" alt="">
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                <img src="./images/portfolio-page/bearing.png" class="pe-xl-3 pe-lg-3 pe-md-0 pe-sm-0 pe-0 py-3" style="width: 100%; height: 100%;" alt="bearing company">
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                <img src="./images/portfolio-page/english-gym.png" class="ps-xl-3 ps-lg-3 ps-md-0 ps-sm-0 ps-0 py-3" style="width: 100%; height: 100%;" alt="english gym">
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                <img src="./images/portfolio-page/shiping.png" class="pe-xl-3 pe-lg-3 pe-md-0 pe-sm-0 pe-0 py-3" style="width: 100%; height: 100%;" alt="">
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                <img src="./images/portfolio-page/female.png" class="ps-xl-3 ps-lg-3 ps-md-0 ps-sm-0 ps-0 py-3" style="width: 100%; height: 100%;" alt="">
-            </div>
-
-            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
-                <img src="./images/portfolio-page/baghban.png" class="pe-xl-3 pe-lg-3 pe-md-0 pe-sm-0 pe-0 py-3" style="width: 100%; height: 100%;" alt="baghban">
-            </div>
-
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ps-xl-3 ps-lg-3 ps-md-0 ps-sm-0 ps-0 py-3">
-                <h2 class="poppins-bold font-32px text-light-blue">Baghban</h2>
-                <p class="poppins-regular font-16px text-black text-justify">Spiral Tech is thrilled to partner with Baghban, an innovative urban cultivation startup, to develop their website and web app. We focused on creating a seamless digital experience, blending user-friendly interfaces with advanced features
-                    to support Baghban's mission of promoting sustainable urban farming. This project exemplifies our commitment to delivering impactful digital solutions. By merging technology with sustainability, we’ve helped Baghban extend their reach
-                    and engage a growing community of urban cultivators, enhancing their digital presence with responsive design and robust backend systems.</p>
-            </div>
-
-            <div class="col-12 d-flex flex-wrap felx-xl-row flex-lg-row flex-md-column-reverse flex-sm-column-reverse flex-column-reverse">
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 pe-xl-3 pe-lg-3 pe-md-0 pe-sm-0 pe-0 py-3">
-                    <h2 class="poppins-bold font-32px text-light-blue">Apna Startup</h2>
-                    <p class="poppins-regular font-16px text-black text-justify">
-                        Spiral Tech successfully completed the development of the web and web app for ApnaStartup, a project by IISAT focused on empowering individuals to earn and develop valuable skills. Our team created a seamless, user-friendly platform that aligns with ApnaStartup's
-                        mission. By integrating responsive design and innovative features, we ensured that the platform effectively supports users in their journey toward skill development and earning opportunities. This project reflects Spiral Tech's
-                        dedication to delivering impactful digital solutions that drive positive change in communities.
-                    </p>
-                </div>
-
-                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
-                    <img src="./images/portfolio-page/apna-startup.png" class="ps-xl-3 ps-lg-3 ps-md-0 ps-sm-0 ps-0 py-3" style="width: 100%; height: 100%;" alt="apna startup">
                 </div>
             </div>
 
@@ -160,7 +89,7 @@
 
         <!-- CONTACT FORM -->
 
-        <div class="container d-flex flex-wrap py-8">
+        <div class="container d-flex flex-wrap py-8" id="contact-form">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="contact-form">
                     <p class="poppins-light font-16px text-black">Contact Us</p>
@@ -179,7 +108,7 @@
                         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                         <!-- Custom Confirmation / Success Page -->
-                        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+                        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.php"> -->
 
                         <button class="poppins-semibold btn-type-2 px-5 py-3 font-16px text-white" type="submit">Send Message</button>
                     </form>
@@ -215,11 +144,11 @@
                         <div class="ps-xl-5 ps-lg-5 ps-0">
                             <p class="poppins-semibold font-16px text-light-blue">Links</p>
                             <ul class="poppins-regular font-16px no-bullets">
-                                <li><a href="./index.html">Home</a></li>
-                                <li><a href="./services-page.html">Services</a></li>
-                                <li><a href="./about-us.html">About Us</a></li>
-                                <li><a href="./blogs-page.html">Blogs</a></li>
-                                <li><a href="./contact-us.html">Contact Us</a></li>
+                                <li><a href="./index.php">Home</a></li>
+                                <li><a href="./services-page.php">Services</a></li>
+                                <li><a href="./about-us.php">About Us</a></li>
+                                <li><a href="./blogs-page.php">Blogs</a></li>
+                                <li><a href="./contact-us.php">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -255,7 +184,7 @@
                             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                             <!-- Custom Confirmation / Success Page -->
-                            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+                            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.php"> -->
 
                             <button class="btn-type-2 px-5 py-3 text-white my-1" type="submit">Join</button>
 
@@ -268,12 +197,7 @@
                 <p class="poppins-medium col-12 font-16px text-light-blue text-center my-0 py-4">SpiralTech : ©2024 Copyright all rights are reserved</p>
             </div>
         </div>
-
     </div>
-
-
-
-
 
 
 

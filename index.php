@@ -40,26 +40,26 @@
             <div class="collapse navbar-collapse m-auto justify-content-center align-items-center" id="navbarNavDropdown">
                 <ul class="navbar-nav align-items-center m-auto">
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./index.html">Home </a>
+                        <a class="nav-link" href="./index.php">Home </a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./services-page.html">Services</a>
+                        <a class="nav-link" href="./services-page.php">Services</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./about-us.html">About Us</a>
+                        <a class="nav-link" href="./about-us.php">About Us</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./portfolio-page.html">Portfolio</a>
+                        <a class="nav-link" href="./portfolio-page.php">Portfolio</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./blogs-page.html">Blogs</a>
+                        <a class="nav-link" href="./blogs-page.php">Blogs</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./contact-us.html">Contact Us</a>
+                        <a class="nav-link" href="./contact-us.php">Contact Us</a>
                     </li>
                 </ul>
                 <div class="navbar-button-div d-flex justify-content-center align-items-center">
-                    <a href="./contact-us.html" class="poppins-regular text-light-blue navbar-button">
+                    <a href="./contact-us.php" class="poppins-regular text-light-blue navbar-button">
                         <button class="btn-type-2 text-white px-5 py-3">Schedule a Meeting</button>
                     </a>
                 </div>
@@ -98,7 +98,7 @@
                             </div>
                         </div>
 
-                        <a href="./contact-us.html">
+                        <a href="./contact-us.php">
                             <button class="btn-type-2 text-white px-5 py-3 my-xl-5 my-lg-5 my-md-5 my-sm-3 my-3">Schedule A Meeting</button>
                         </a>
                     </div>
@@ -422,49 +422,56 @@
             </div>
 
             <div class="d-flex flex-wrap flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column">
+<?php
+$apiKey = 'AIzaSyCgI39KFW-afn8DDrmg9W-on_Mjoog6ajY';
+$blogId = '2152023608555043419';
 
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 pe-xl-2 pe-lg-2 pe-0">
+$url = "https://www.googleapis.com/blogger/v3/blogs/$blogId/posts?maxResults=3&key=$apiKey";
+$response = file_get_contents($url);
+$posts = json_decode($response, true);
+if (!function_exists('getFirstImage')) {
+    function getFirstImage($content) {
+        // Use regular expression to extract the first image from the post content
+        preg_match('/<img.+src=[\'"](?P<src>.+?)[\'"].*>/i', $content, $image);
+        return (!empty($image['src'])) ? $image['src'] : 'Images/port-mobile-8.png'; // Default if no image
+    }
+}
+if (!empty($posts['items'])) {
+    foreach ($posts['items'] as $post) {
+        $title = $post['title'];
+        $postId = $post['id'];
+        $content = $post['content'];
+        $postUrl = "blog_detail.php?id=" . $postId;
+
+        // Get the first image from the post content
+        $thumbnail = getFirstImage($content);
+        echo '   <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 pe-xl-2 pe-lg-2 pe-0">
                     <div class="col-12 pe-xl-2 pe-lg-2 pe-0">
                         <div class="card my-4" style="width: 100%;">
-                            <img class="card-img-top" src="./images/abc.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="';
+                            echo $thumbnail; 
+                            echo'" alt="Card image cap">
                             <div class="card-body">
-                                <h2 class="poppins-semibold font-32px text-light-blue">Essential Digital Presence</h2>
-                                <p class="card-text">Why Every Modern Business Needs a Strong Digital Presence?</p>
-                                <a href="./Articles/blogPage.html" target="_blank">
+                                <h2 class="poppins-bold font-24px text-light-blue">';
+                                echo $title;
+                                echo'</h2>
+                                <p class="card-text">';
+                                echo substr(strip_tags($content), 0, 40);
+                                echo'...</p>
+                                <a href="';echo $postUrl;echo'" target="_blank">
                                     <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
                                 </a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>';
+            }
+        } else {
+            echo '<p>No blog posts available.</p>';
+        }
+        ?>
 
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 px-xl-2 px-lg-2 px-0">
-                    <div class="card my-4" style="width: 100%;">
-                        <img class="card-img-top" src="./images/abc.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h2 class="poppins-semibold font-32px text-light-blue">Essential Digital Presence</h2>
-                            <p class="card-text">Why Every Modern Business Needs a Strong Digital Presence?</p>
-                            <a href="./Articles/blogPage.html" target="_blank">
-                                <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ps-xl-2 ps-lg-2 ps-0">
-                    <div class="col-12 ps-xl-2 ps-lg-2 ps-0">
-                        <div class="card my-4" style="width: 100%;">
-                            <img class="card-img-top" src="./images/abc.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h2 class="poppins-semibold font-32px text-light-blue">Essential Digital Presence</h2>
-                                <p class="card-text">Why Every Modern Business Needs a Strong Digital Presence?</p>
-                                <a href="./Articles/blogPage.html" target="_blank">
-                                    <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
 
             </div>
 
@@ -511,7 +518,7 @@
                         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                         <!-- Custom Confirmation / Success Page -->
-                        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+                        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.php"> -->
 
                         <button class="poppins-semibold btn-type-2 px-5 py-3 font-16px text-white" type="submit">Send Message</button>
                     </form>
@@ -547,11 +554,11 @@
                         <div class="ps-xl-5 ps-lg-5 ps-0">
                             <p class="poppins-semibold font-16px text-light-blue">Links</p>
                             <ul class="poppins-regular font-16px no-bullets">
-                                <li><a href="./index.html">Home</a></li>
-                                <li><a href="./services-page.html">Services</a></li>
-                                <li><a href="./about-us.html">About Us</a></li>
-                                <li><a href="./blogs-page.html">Blogs</a></li>
-                                <li><a href="./contact-us.html">Contact Us</a></li>
+                                <li><a href="./index.php">Home</a></li>
+                                <li><a href="./services-page.php">Services</a></li>
+                                <li><a href="./about-us.php">About Us</a></li>
+                                <li><a href="./blogs-page.php">Blogs</a></li>
+                                <li><a href="./contact-us.php">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -587,7 +594,7 @@
                             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                             <!-- Custom Confirmation / Success Page -->
-                            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+                            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.php"> -->
 
                             <button class="btn-type-2 px-5 py-3 text-white my-1" type="submit">Join</button>
 

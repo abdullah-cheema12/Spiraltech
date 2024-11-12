@@ -17,7 +17,11 @@
     <!-- Owl Carousel css file-->
     <link rel="stylesheet" href="./OwlCarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./OwlCarousel/dist/assets/owl.theme.default.min.css">
-    <!-- custom css file -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" /> -->
+    <!-- link coustom css file  -->
     <link rel="stylesheet" href="css/style.css">
     <!-- link favicon  -->
     <link rel="shortcut icon" href="./logos/favicon_green.svg" type="image/x-icon">
@@ -36,26 +40,26 @@
             <div class="collapse navbar-collapse m-auto justify-content-center align-items-center" id="navbarNavDropdown">
                 <ul class="navbar-nav align-items-center m-auto">
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./index.html">Home </a>
+                        <a class="nav-link" href="./index.php">Home </a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./services-page.html">Services</a>
+                        <a class="nav-link" href="./services-page.php">Services</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./about-us.html">About Us</a>
+                        <a class="nav-link" href="./about-us.php">About Us</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./portfolio-page.html">Portfolio</a>
+                        <a class="nav-link" href="./portfolio-page.php">Portfolio</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./blogs-page.html">Blogs</a>
+                        <a class="nav-link" href="./blogs-page.php">Blogs</a>
                     </li>
                     <li class="nav-item mx-3 my-2 text-black poppins-semibold">
-                        <a class="nav-link" href="./contact-us.html">Contact Us</a>
+                        <a class="nav-link" href="./contact-us.php">Contact Us</a>
                     </li>
                 </ul>
                 <div class="navbar-button-div d-flex justify-content-center align-items-center">
-                    <a href="./contact-us.html" class="poppins-regular text-light-blue navbar-button">
+                    <a href="./contact-us.php" class="poppins-regular text-light-blue navbar-button">
                         <button class="btn-type-2 text-white px-5 py-3">Schedule a Meeting</button>
                     </a>
                 </div>
@@ -67,141 +71,159 @@
 
     <div class="home-page">
 
-        <div class="container-fluid p-0 m-0 bg-img main-img">
+        <div class="container-fluid p-0 m-0 mb-1 bg-img main-img">
 
-            <div class="container pt-xl-5 pt-lg-5 pt-md-3 pt-sm-2 pt-0 pb-8">
+            <div class="container pb-8">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <h1 class="poppins-bold font-32px text-light-blue">Insights, Updates,<br>and Tech Trends</h1>
-                        <p class="poppins-regular font-16px text-black">Stay informed with our latest blog posts, covering industry insights, company updates, and emerging tech trends to keep you ahead.</p>
-
-                        <a href="./contact-us.html">
-                            <button class="btn-type-2 text-white px-5 py-3 my-xl-2 my-lg-2 my-md-2 my-sm-2 my-2">Schedule A Meeting</button>
+                        <h1 class="poppins-bold font-32px text-light-blue">Innovative Digital Solutions Tailored to Elevate Your Business Growth</h1>
+                        <p class="poppins-regular font-16px text-black">At Spiral Tech, we deliver cutting-edge web and app development, ensuring seamless experiences and driving measurable success.</p>
+                        <a href="./contact-us.php">
+                            <button class="btn-type-2 text-white px-5 py-3 my-xl-3 my-lg-3 my-md-3 my-sm-3 my-3">Schedule A Meeting</button>
                         </a>
                     </div>
+
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
-                        <img src="./images/blogs-page/blog-page-main.png" style="width: auto; height: 100%;" alt="">
+                        <img src="./images/services-page/serices-page.png" style="width: auto; height: 100%;" alt="">
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <!-- LATEST ARTICLE -->
-
-        <div class="container py-4">
-
-            <h2 class="poppins-bold font-32px text-light-blue">Latest Article</h2>
-
-            <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
-                <div class="card my-4 border-0 d-flex flex-xl-row flex-lg-row" style="width: 100%;">
-                    <img class="card-img-top w-50" src="./images/abc.jpg" alt="Card image cap">
-                    <div class="card-body px-xl-3 px-lg-3 px-0 w-100">
-                        <h2 class="poppins-semibold font-32px text-light-blue">Essential Digital Presence</h2>
-                        <p class="card-text">In today’s digital world, having a strong online presence is essential for every business. With billions of people using the internet, your digital footprint often serves as potential customers' first impression of your brand.</p>
-                        <a href="./blog.html" target="_blank">
-                            <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- POPULAR ARTICLES -->
+        <!-- OUR SERVICES -->
 
         <div class="container py-8">
-            <h2 class="poppins-bold font-32px text-light-blue">Popular Articles</h2>
-
-            <div class="d-flex flex-wrap flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column">
-
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 pe-xl-2 pe-lg-2 pe-0">
-                    <div class="col-12 pe-xl-2 pe-lg-2 pe-0">
-                        <div class="card my-4" style="width: 100%;">
-                            <img class="card-img-top" src="./images/abc.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h2 class="poppins-semibold font-32px text-light-blue">Essential Digital Presence</h2>
-                                <p class="card-text">Why Every Modern Business Needs a Strong Digital Presence?</p>
-                                <a href="./Articles/blogPage.html" target="_blank">
-                                    <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 px-xl-2 px-lg-2 px-0">
-                    <div class="card my-4" style="width: 100%;">
-                        <img class="card-img-top" src="./images/abc.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h2 class="poppins-semibold font-32px text-light-blue">Essential Digital Presence</h2>
-                            <p class="card-text">Why Every Modern Business Needs a Strong Digital Presence?</p>
-                            <a href="./Articles/blogPage.html" target="_blank">
-                                <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ps-xl-2 ps-lg-2 ps-0">
-                    <div class="col-12 ps-xl-2 ps-lg-2 ps-0">
-                        <div class="card my-4" style="width: 100%;">
-                            <img class="card-img-top" src="./images/abc.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h2 class="poppins-semibold font-32px text-light-blue">Essential Digital Presence</h2>
-                                <p class="card-text">Why Every Modern Business Needs a Strong Digital Presence?</p>
-                                <a href="./Articles/blogPage.html" target="_blank">
-                                    <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 pe-xl-2 pe-lg-2 pe-0">
-                    <div class="col-12 pe-xl-2 pe-lg-2 pe-0">
-                        <div class="card my-4" style="width: 100%;">
-                            <img class="card-img-top" src="./images/abc.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h2 class="poppins-semibold font-32px text-light-blue">Essential Digital Presence</h2>
-                                <p class="card-text">Why Every Modern Business Needs a Strong Digital Presence?</p>
-                                <a href="./Articles/blogPage.html" target="_blank">
-                                    <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 px-xl-2 px-lg-2 px-0">
-                    <div class="card my-4" style="width: 100%;">
-                        <img class="card-img-top" src="./images/abc.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h2 class="poppins-semibold font-32px text-light-blue">Essential Digital Presence</h2>
-                            <p class="card-text">Why Every Modern Business Needs a Strong Digital Presence?</p>
-                            <a href="./Articles/blogPage.html" target="_blank">
-                                <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ps-xl-2 ps-lg-2 ps-0">
-                    <div class="col-12 ps-xl-2 ps-lg-2 ps-0">
-                        <div class="card my-4" style="width: 100%;">
-                            <img class="card-img-top" src="./images/abc.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h2 class="poppins-semibold font-32px text-light-blue">Essential Digital Presence</h2>
-                                <p class="card-text">Why Every Modern Business Needs a Strong Digital Presence?</p>
-                                <a href="./Articles/blogPage.html" target="_blank">
-                                    <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mx-auto pb-4">
+                <p class="textleft text-center poppins-bold font-32px text-light-blue">Our Services</p>
+                <p class="poppins-regular font-16px text-black textleft text-center">Empowering your digital journey with innovative technology solutions designed for seamless business transformation, enhanced efficiency, and sustainable growth. Experience the future of tech with Spiral Tech. </p>
             </div>
+
+            <!-- WEB DEVELOPMENT -->
+
+            <div class="d-flex flex-wrap pt-4">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <img src="./images/services-page/web-dev.png" style="width: 100%; height: auto;" alt="">
+                </div>
+
+                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 ps-xl-5 ps-lg-5 ps-0 d-flex flex-wrap">
+                    <div class="col-12 pt-xl-0 pt-lg-0 pt-md-5 pt-sm-5 pt-5">
+                        <h2 class="poppins-bold font-32 text-light-blue">Web Development</h2>
+                        <p class="poppins-regular font-16px text-black text-justify">We specialize in creating modern, responsive, and interactive web designs using the latest technologies like HTML, CSS, JavaScript, and React. Our approach ensures that every website we build is not only visually appealing but
+                            also optimized for performance, delivering a smooth and engaging user experience across all devices. By focusing on responsive design and interactivity, we aim to keep users engaged, increase conversions, and provide a seamless
+                            digital experience that reflects your brand’s identity and enhances customer satisfaction.</p>
+                    </div>
+
+                    <div class="col-12 d-flex flex-row flex-wrap justify-content-end align-items-end">
+
+                        <div class="col-xl-6 col-lg 6 col-md-12 col-sm-12 col-12 pe-xl-4 pe-lg-4 pe-0">
+                            <img src="./images/services-page/front-end.png" class="pb-4" alt="frontend">
+                            <p class="poppins-regular font-16px text-black text-justify">
+                                We craft visually engaging, responsive websites using HTML, CSS, JavaScript, and React to enhance user experience.
+                            </p>
+                        </div>
+                        <div class="col-xl-6 col-lg 6 col-md-12 col-sm-12 col-12 ps-xl-4 ps-lg-4 ps-0">
+                            <img src="./images/services-page/back-end.png" class="pb-4" alt="backend">
+                            <p class="poppins-regular font-16px text-black text-justify">
+                                Our backend solutions, powered by PHP, Laravel, and MERN stack, ensure efficient data management and smooth performance.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="py-4">
+            <div class="container-fluid bg-powder-blue">
+                <div class="container py-5 d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-0 py-xl-0 py-lg-0 py-md-3 py-sm-3 py-3 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./images/services-page/custom-code.png" class="pb-2" alt="custom code">
+                        <h3 class="poppins-semi-bold font-20px text-light-blue">Custom Code</h3>
+                        <p class="poppins-regular font-16px text-black text-center">Tailored with HTML, CSS, JavaScript for standout designs.</p>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-0 py-xl-0 py-lg-0 py-md-3 py-sm-3 py-3 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./images/services-page/wordpress.png" class="pb-2" alt="wordpress">
+                        <h3 class="poppins-semi-bold font-20px text-light-blue">Wordpress</h3>
+                        <p class="poppins-regular font-16px text-black text-center">Dynamic websites using custom themes and plugins.</p>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-0 py-xl-0 py-lg-0 py-md-3 py-sm-3 py-3 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./images/services-page/php.png" class="pb-2" alt="php">
+                        <h3 class="poppins-semi-bold font-20px text-light-blue">Backend In Php</h3>
+                        <p class="poppins-regular font-16px text-black text-center">Robust solutions in core PHP and Laravel frameworks.</p>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 px-xl-3 px-lg-3 px-0 py-xl-0 py-lg-0 py-md-3 py-sm-3 py-3 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./images/services-page/mern.png" class="pb-2" alt="mean and mern">
+                        <h3 class="poppins-semi-bold font-20px text-light-blue">MEAN / MERN</h3>
+                        <p class="poppins-regular font-16px text-black text-center">Full-stack applications for seamless user experience and performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- APP DEVELOPMENT -->
+
+        <div class="py-8">
+
+            <div class="container py-5 d-flex flex-xl-row flex-lg-row flex-md-column-reverse flex-sm-column-reverse flex-column-reverse flex-wrap">
+                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 pe-xl-5 pe-lg-5 pe-0 pt-xl-0 pt-lg-0 pt-md-5 pt-sm-5 pt-5 d-flex flex-wrap">
+                    <div class="col-12">
+                        <h2 class="poppins-bold font-32 text-light-blue">App Development</h2>
+                        <p class="poppins-regular font-16px text-black text-justify">We specialize in building intuitive and high-performing mobile applications using cutting-edge technologies. Our approach ensures that every app we develop is user-centric, secure, and scalable, offering seamless functionality
+                            across devices. Whether it's for Android or iOS, we craft mobile experiences that are visually engaging, responsive, and optimized for performance. Our focus on user-friendly interfaces and innovative features ensures your
+                            app not only meets business goals but also delights users and enhances customer retention.
+                        </p>
+                    </div>
+
+                    <div class="col-xl-6 col-lg 6 col-md-12 col-sm-12 col-12 pe-xl-4 pe-lg-4 pe-0">
+                        <img src="./images/services-page/flutter.png" class="pb-4" alt="flutter">
+                        <p class="poppins-regular font-16px text-black text-justify">
+                            We create fast, cross-platform mobile apps with Flutter, ensuring native-like performance and smooth user experiences.
+                        </p>
+                    </div>
+
+                    <div class="col-xl-6 col-lg 6 col-md-12 col-sm-12 col-12 ps-xl-4 ps-lg-4 ps-0">
+                        <img src="./images/services-page/react-native.png" class="pb-4" alt="react native">
+                        <p class="poppins-regular font-16px text-black text-justify">
+                            We develop cross-platform apps using React Native, providing fluid performance and a consistent user interface.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <img src="./images/services-page/app-development.png" style="width: 100%; height: auto;" alt="app development">
+                </div>
+            </div>
+
+            <!-- UI / UX / GRAPHICS -->
+
+            <div class="container d-flex flex-wrap">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 pe-xl-3 pe-lg-3 pe-0 d-flex flex-column">
+                    <img src="./images/services-page/ui-ux.png" style="width: 100%; height: auto;" alt="ui ux">
+                    <h2 class="poppins-bold font-32px text-light-blue py-3 m-0">UI / UX Designing</h2>
+                    <p class="poppins-regular font-16px text-black text-justify">
+                        We excel in designing user interfaces (UI) and experiences (UX) that are both intuitive and visually stunning. Our UI/UX design process focuses on understanding user behavior, ensuring every interaction on your website or app is seamless and engaging.
+                        By combining aesthetics with functionality, we create designs that guide users effortlessly through your digital platforms. Our user-centered approach enhances satisfaction, improves accessibility, and boosts conversion rates,
+                        ensuring your digital products deliver value while maintaining consistency with your brand’s identity.
+                    </p>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ps-xl-3 ps-lg-3 ps-0 pt-xl-0 pt-lg-0 pt-md-5 pt-sm-5 pt-5 d-flex flex-column">
+                    <img src="./images/services-page/graphics.png" style="width: 100%; height: auto;" alt="graphics designing">
+                    <h2 class="poppins-bold font-32px text-light-blue py-3 m-0">Graphic Designing</h2>
+                    <p class="poppins-regular font-16px text-black text-justify">
+                        Our graphic design services bring your brand's vision to life with creative and impactful visuals. Using the latest design tools, we craft logos, banners, and marketing materials that resonate with your audience and align with your brand identity. From
+                        concept to execution, our designs are tailored to engage and inspire, creating a lasting impression. Whether you need branding, digital art, or print designs, we ensure each piece is visually compelling and strategically aligned
+                        with your business goals.
+                    </p>
+                </div>
+            </div>
+
         </div>
 
         <!-- CLIENTS SECTION -->
@@ -312,7 +334,7 @@
 
         <!-- CONTACT FORM -->
 
-        <div class="container d-flex flex-wrap">
+        <div class="container d-flex flex-wrap py-8">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="contact-form">
                     <p class="poppins-light font-16px text-black">Contact Us</p>
@@ -331,7 +353,7 @@
                         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                         <!-- Custom Confirmation / Success Page -->
-                        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+                        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.php"> -->
 
                         <button class="poppins-semibold btn-type-2 px-5 py-3 font-16px text-white" type="submit">Send Message</button>
                     </form>
@@ -343,6 +365,7 @@
         </div>
 
         <!-- FOOTER -->
+
         <div class="container-fluid bg-img footer-img">
             <div class="container d-flex flex-wrap" style="padding-top: 10rem; ">
                 <div class="row pb-5">
@@ -366,11 +389,11 @@
                         <div class="ps-xl-5 ps-lg-5 ps-0">
                             <p class="poppins-semibold font-16px text-light-blue">Links</p>
                             <ul class="poppins-regular font-16px no-bullets">
-                                <li><a href="./index.html">Home</a></li>
-                                <li><a href="./services-page.html">Services</a></li>
-                                <li><a href="./about-us.html">About Us</a></li>
-                                <li><a href="./blogs-page.html">Blogs</a></li>
-                                <li><a href="./contact-us.html">Contact Us</a></li>
+                                <li><a href="./index.php">Home</a></li>
+                                <li><a href="./services-page.php">Services</a></li>
+                                <li><a href="./about-us.php">About Us</a></li>
+                                <li><a href="./blogs-page.php">Blogs</a></li>
+                                <li><a href="./contact-us.php">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -406,7 +429,7 @@
                             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                             <!-- Custom Confirmation / Success Page -->
-                            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+                            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.php"> -->
 
                             <button class="btn-type-2 px-5 py-3 text-white my-1" type="submit">Join</button>
 
@@ -421,7 +444,6 @@
         </div>
 
     </div>
-
 
 
 
@@ -476,7 +498,6 @@
             });
         });
     </script>
-
 
 </body>
 

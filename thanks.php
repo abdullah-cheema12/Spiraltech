@@ -30,7 +30,7 @@
             <img src="./images/thumbs-up-solid.svg" style="width: 100px; height: 100px;" class="mb-4" alt="">
             <h1 class="poppins-bold font-40px text-light-blue text-center">THANK YOU!</h1>
             <p class="poppins-regular font-24px text-black text-center">We have received your message. We will contact you shortly!</p>
-            <a href="./index.html">
+            <a href="./index.php">
                 <button class="btn-type-2 text-white px-5 py-3 my-2">HOME PAGE</button>
             </a>
         </div>
