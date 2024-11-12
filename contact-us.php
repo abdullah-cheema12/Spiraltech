@@ -115,7 +115,7 @@
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center">
-                <img src="./Images/contact-picture.png" alt="contact us" style="width: 80%; height: auto;">
+                <img src="./images/contact-picture.png" alt="contact us" style="width: 80%; height: auto;">
             </div>
         </div>
 
@@ -127,14 +127,14 @@
                     
                 <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
                     <a href="#nav-bar">
-                        <img src="./Logos/verti_full_green.svg" class="h-auto pb-2 footer-logo" style="width: 80%;" alt="Spiral Tech">
+                        <img src="./logos/verti_full_green.svg" class="h-auto pb-2 footer-logo" style="width: 80%;" alt="Spiral Tech">
                     </a>
                     <p class="poppins-regular font-16px text-black m-0 ">Empowering your business with<br>innovative digital solutions for growth.</p>
                     <div class="footer-links pb-4 pt-3">
-                        <a href="https://www.facebook.com/profile.php?id=61563218953237" target="_blank"><img src="./Images/facebook.png" class="me-2" style="width: 40px; height: 40px;" alt="facebook"></a>
-                        <a href="https://www.instagram.com/spiral_tech_official/" target="_blank"><img src="./Images/instagram.png" class="me-2" style="width: 40px; height: 40px;" alt="instagram"></a>
-                        <a href="https://www.linkedin.com/company/spiral-tech/?viewAsMember=true" target="_blank"><img src="./Images/linkedin.png" class="me-2" style="width: 40px; height: 40px;" alt="linkedin"></a>
-                        <a href="https://x.com/spiraltechoffic?t=e2_OM91D0w_F0NF-NkM-aQ&s=09" target="_blank"><img src="./Images/twitter.png" class="me-2" style="width: 40px; height: 40px;" alt="twitter"></a>
+                        <a href="https://www.facebook.com/profile.php?id=61563218953237" target="_blank"><img src="./images/facebook.png" class="me-2" style="width: 40px; height: 40px;" alt="facebook"></a>
+                        <a href="https://www.instagram.com/spiral_tech_official/" target="_blank"><img src="./images/instagram.png" class="me-2" style="width: 40px; height: 40px;" alt="instagram"></a>
+                        <a href="https://www.linkedin.com/company/spiral-tech/?viewAsMember=true" target="_blank"><img src="./images/linkedin.png" class="me-2" style="width: 40px; height: 40px;" alt="linkedin"></a>
+                        <a href="https://x.com/spiraltechoffic?t=e2_OM91D0w_F0NF-NkM-aQ&s=09" target="_blank"><img src="./images/twitter.png" class="me-2" style="width: 40px; height: 40px;" alt="twitter"></a>
                     </div>
                 </div>
 

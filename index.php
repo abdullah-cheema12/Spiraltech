@@ -184,12 +184,12 @@
                         <div class="container">
                             <div class="row d-flex flex-wrap bg-light-blue bg-powder-blue py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3" style="border-radius: 25px;">
                                 <div class="your-work-left col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3 d-flex justify-content-center align-items-center">
-                                    <img src="./Images/planning.png" alt="planning">
+                                    <img src="./images/planning.png" alt="planning">
                                 </div>
 
                                 <div class="your-work-right col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3">
                                     <div class="col-11 mx-auto">
-                                        <img src="./Images/one.png" class="pb-4" alt="one">
+                                        <img src="./images/one.png" class="pb-4" alt="one">
                                         <h1 class="poppins-semibold two-rem dark-blue-text">Planning</h1>
                                         <p class="poppins-regular one-rem black-text">During the planning phase, we define your project’s scope, gather requirements, and set clear objectives. This includes understanding your vision, outlining key features, and establishing timelines and milestones
                                             to ensure a successful project execution. </p>
@@ -204,12 +204,12 @@
                         <div class="container">
                             <div class="row d-flex flex-wrap bg-light-blue bg-powder-blue py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3" style="border-radius: 25px;">
                                 <div class="your-work-left col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3 d-flex justify-content-center align-items-center">
-                                    <img src="./Images/brainstroming.png" alt="brainstroming">
+                                    <img src="./images/brainstroming.png" alt="brainstroming">
                                 </div>
 
                                 <div class="your-work-right col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3">
                                     <div class="col-11 mx-auto">
-                                        <img src="./Images/two.png" class="pb-4" alt="two">
+                                        <img src="./images/two.png" class="pb-4" alt="two">
                                         <h1 class="poppins-semibold two-rem dark-blue-text">Brainstorming</h1>
                                         <p class="poppins-regular one-rem black-text">In the brainstorming phase, we collaborate to generate ideas and refine the project’s vision. We explore creative solutions, discuss features, and align on the overall direction to ensure the website meets your
                                             goals and stands out.
@@ -225,12 +225,12 @@
                         <div class="container">
                             <div class="row d-flex flex-wrap bg-light-blue bg-powder-blue py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3" style="border-radius: 25px;">
                                 <div class="your-work-left col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3 d-flex justify-content-center align-items-center">
-                                    <img src="./Images/designing.png" alt="designing">
+                                    <img src="./images/designing.png" alt="designing">
                                 </div>
 
                                 <div class="your-work-right col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3">
                                     <div class="col-11 mx-auto">
-                                        <img src="./Images/three.png" class="pb-4" alt="three">
+                                        <img src="./images/three.png" class="pb-4" alt="three">
                                         <h1 class="poppins-semibold two-rem dark-blue-text">Designing</h1>
                                         <p class="poppins-regular one-rem black-text">In the designing phase, we create the visual and interactive elements of your website. This includes crafting intuitive UI/UX designs that ensure an engaging user experience. We develop wireframes and mockups to
                                             bring your vision to life, focusing on aesthetics, usability, and brand consistency.</p>
@@ -245,12 +245,12 @@
                         <div class="container">
                             <div class="row d-flex flex-wrap bg-light-blue bg-powder-blue py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3" style="border-radius: 25px;">
                                 <div class="your-work-left col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3 d-flex justify-content-center align-items-center">
-                                    <img src="./Images/development.png" alt="development">
+                                    <img src="./images/development.png" alt="development">
                                 </div>
 
                                 <div class="your-work-right col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3">
                                     <div class="col-11 mx-auto">
-                                        <img src="./Images/four.png" class="pb-4" alt="four">
+                                        <img src="./images/four.png" class="pb-4" alt="four">
                                         <h1 class="poppins-semibold two-rem dark-blue-text">Development</h1>
                                         <p class="poppins-regular one-rem black-text">During the development phase, we turn designs into a fully functional website. Our team codes the front-end and back-end, integrates necessary features, and ensures seamless performance. We follow best practices
                                             to build a robust, scalable, and secure website tailored to your requirements.</p>
@@ -265,12 +265,12 @@
                         <div class="container">
                             <div class="row d-flex flex-wrap bg-light-blue bg-powder-blue py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3" style="border-radius: 25px;">
                                 <div class="your-work-left col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3 d-flex justify-content-center align-items-center">
-                                    <img src="./Images/testing.png" alt="testing">
+                                    <img src="./images/testing.png" alt="testing">
                                 </div>
 
                                 <div class="your-work-right col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 py-xl-5 py-lg-5 py-md-3 py-sm-3 py-3">
                                     <div class="col-11 mx-auto">
-                                        <img src="./Images/five.png" class="pb-4" alt="five">
+                                        <img src="./images/five.png" class="pb-4" alt="five">
                                         <h1 class="poppins-semibold two-rem dark-blue-text">Testing And Launch</h1>
                                         <p class="poppins-regular one-rem black-text">In the testing and launching phase, we rigorously test your website for functionality, performance, and security. We fix any issues and ensure everything runs smoothly. Once approved, we launch your website, making
                                             it live and accessible to your audience.</p>
@@ -309,7 +309,7 @@
                         <div class="card" style="border: none;">
                             <div class="card-body">
                                 <div class="test-img" style="width: 100%; height: auto;">
-                                    <img src="./Images/findsvet-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
+                                    <img src="./images/findsvet-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
                                 </div>
                             </div>
                         </div>
@@ -319,7 +319,7 @@
                         <div class="card" style="border: none;">
                             <div class="card-body">
                                 <div class="test-img" style="width: 100%; height: auto;">
-                                    <img src="./Images/tentesa-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
+                                    <img src="./images/tentesa-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
                                 </div>
                             </div>
                         </div>
@@ -329,7 +329,7 @@
                         <div class="card" style="border: none;">
                             <div class="card-body">
                                 <div class="test-img" style="width: 100%; height: auto;">
-                                    <img src="./Images/sukoon-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
+                                    <img src="./images/sukoon-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
                                 </div>
                             </div>
                         </div>
@@ -339,7 +339,7 @@
                         <div class="card" style="border: none;">
                             <div class="card-body">
                                 <div class="test-img" style="width: 100%; height: auto;">
-                                    <img src="./Images/baghban-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
+                                    <img src="./images/baghban-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
                                 </div>
                             </div>
                         </div>
@@ -349,7 +349,7 @@
                         <div class="card" style="border: none;">
                             <div class="card-body">
                                 <div class="test-img" style="width: 100%; height: auto;">
-                                    <img src="./Images/reco-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
+                                    <img src="./images/reco-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
                                 </div>
                             </div>
                         </div>
@@ -359,7 +359,7 @@
                         <div class="card" style="border: none;">
                             <div class="card-body">
                                 <div class="test-img" style="width: 100%; height: auto;">
-                                    <img src="./Images/alrehman-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
+                                    <img src="./images/alrehman-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
                                 </div>
                             </div>
                         </div>
@@ -369,7 +369,7 @@
                         <div class="card" style="border: none;">
                             <div class="card-body">
                                 <div class="test-img" style="width: 100%; height: auto;">
-                                    <img src="./Images/kpl-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
+                                    <img src="./images/kpl-logo.png" style="width: 100%; height: 100px; object-fit: contain;" alt="">
                                 </div>
                             </div>
                         </div>
@@ -393,7 +393,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="test-img" style="width: 100%; height: auto;">
-                                <img src="./Images/findsVet.jpg" style="width: 100%; height: auto;" alt="">
+                                <img src="./images/findsVet.jpg" style="width: 100%; height: auto;" alt="">
                             </div>
                         </div>
                     </div>
@@ -403,7 +403,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="test-img" style="width: 100%; height: auto;">
-                                <img src="./Images/usama-momento.jpg" style="width: 100%; height: auto;" alt="">
+                                <img src="./images/usama-momento.jpg" style="width: 100%; height: auto;" alt="">
                             </div>
                         </div>
                     </div>
@@ -433,7 +433,7 @@ if (!function_exists('getFirstImage')) {
     function getFirstImage($content) {
         // Use regular expression to extract the first image from the post content
         preg_match('/<img.+src=[\'"](?P<src>.+?)[\'"].*>/i', $content, $image);
-        return (!empty($image['src'])) ? $image['src'] : 'Images/port-mobile-8.png'; // Default if no image
+        return (!empty($image['src'])) ? $image['src'] : 'images/port-mobile-8.png'; // Default if no image
     }
 }
 if (!empty($posts['items'])) {
@@ -525,7 +525,7 @@ if (!empty($posts['items'])) {
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center">
-                <img src="./Images/contact-picture.png" alt="contact us" style="width: 80%; height: auto;">
+                <img src="./images/contact-picture.png" alt="contact us" style="width: 80%; height: auto;">
             </div>
         </div>
 
@@ -537,14 +537,14 @@ if (!empty($posts['items'])) {
                     
                 <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
                     <a href="#nav-bar">
-                        <img src="./Logos/verti_full_green.svg" class="h-auto pb-2 footer-logo" style="width: 80%;" alt="Spiral Tech">
+                        <img src="./logos/verti_full_green.svg" class="h-auto pb-2 footer-logo" style="width: 80%;" alt="Spiral Tech">
                     </a>
                     <p class="poppins-regular font-16px text-black m-0 ">Empowering your business with<br>innovative digital solutions for growth.</p>
                     <div class="footer-links pb-4 pt-3">
-                        <a href="https://www.facebook.com/profile.php?id=61563218953237" target="_blank"><img src="./Images/facebook.png" class="me-2" style="width: 40px; height: 40px;" alt="facebook"></a>
-                        <a href="https://www.instagram.com/spiral_tech_official/" target="_blank"><img src="./Images/instagram.png" class="me-2" style="width: 40px; height: 40px;" alt="instagram"></a>
-                        <a href="https://www.linkedin.com/company/spiral-tech/?viewAsMember=true" target="_blank"><img src="./Images/linkedin.png" class="me-2" style="width: 40px; height: 40px;" alt="linkedin"></a>
-                        <a href="https://x.com/spiraltechoffic?t=e2_OM91D0w_F0NF-NkM-aQ&s=09" target="_blank"><img src="./Images/twitter.png" class="me-2" style="width: 40px; height: 40px;" alt="twitter"></a>
+                        <a href="https://www.facebook.com/profile.php?id=61563218953237" target="_blank"><img src="./images/facebook.png" class="me-2" style="width: 40px; height: 40px;" alt="facebook"></a>
+                        <a href="https://www.instagram.com/spiral_tech_official/" target="_blank"><img src="./images/instagram.png" class="me-2" style="width: 40px; height: 40px;" alt="instagram"></a>
+                        <a href="https://www.linkedin.com/company/spiral-tech/?viewAsMember=true" target="_blank"><img src="./images/linkedin.png" class="me-2" style="width: 40px; height: 40px;" alt="linkedin"></a>
+                        <a href="https://x.com/spiraltechoffic?t=e2_OM91D0w_F0NF-NkM-aQ&s=09" target="_blank"><img src="./images/twitter.png" class="me-2" style="width: 40px; height: 40px;" alt="twitter"></a>
                     </div>
                 </div>
 

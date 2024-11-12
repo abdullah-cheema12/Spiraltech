@@ -11,7 +11,7 @@ if (isset($currentPostId)) {
     // Function to extract the first image from a post
     function getFirstImage($content) {
         preg_match('/<img.+src=[\'"](?P<src>.+?)[\'"].*>/i', $content, $image);
-        return (!empty($image['src'])) ? $image['src'] : 'Images/port-mobile-8.png'; // Default if no image found
+        return (!empty($image['src'])) ? $image['src'] : 'images/port-mobile-8.png'; // Default if no image found
     }
 
     if (!empty($post)) {
@@ -90,7 +90,9 @@ if (isset($currentPostId)) {
             <div class="py-8 mx-auto" style="max-width: 640px;">
             <?php echo '
         <h1 class="py-3 poppins-bold text-light-blue  style-title">'. $post['title'] .' </h1>';?>
-            <?php echo $post['content'];?>
+            
+            <div class="poppins-regular"><?php 
+            echo $post['content'];?></div>
             <?php
     } else {
         echo '<p>Blog post not found.</p>';
@@ -154,14 +156,14 @@ if (isset($currentPostId)) {
 
                 <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
                     <a href="#nav-bar">
-                        <img src="./Logos/verti_full_green.svg" class="h-auto pb-5 footer-logo" style="width: 80%;" alt="Spiral Tech">
+                        <img src="./logos/verti_full_green.svg" class="h-auto pb-5 footer-logo" style="width: 80%;" alt="Spiral Tech">
                     </a>
                     <p class="poppins-regular font-16px text-black m-0 pb-4">Empowering your business with<br>innovative digital solutions for growth.</p>
                     <div class="footer-links py-4">
-                        <a href="https://www.facebook.com/profile.php?id=61563218953237" target="_blank"><img src="./Images/facebook.png" class="me-2" style="width: 40px; height: 40px;" alt="facebook"></a>
-                        <a href="https://www.instagram.com/spiral_tech_official/" target="_blank"><img src="./Images/instagram.png" class="me-2" style="width: 40px; height: 40px;" alt="instagram"></a>
-                        <a href="https://www.linkedin.com/company/spiral-tech/?viewAsMember=true" target="_blank"><img src="./Images/linkedin.png" class="me-2" style="width: 40px; height: 40px;" alt="linkedin"></a>
-                        <a href="https://x.com/spiraltechoffic?t=e2_OM91D0w_F0NF-NkM-aQ&s=09" target="_blank"><img src="./Images/twitter.png" class="me-2" style="width: 40px; height: 40px;" alt="twitter"></a>
+                        <a href="https://www.facebook.com/profile.php?id=61563218953237" target="_blank"><img src="./images/facebook.png" class="me-2" style="width: 40px; height: 40px;" alt="facebook"></a>
+                        <a href="https://www.instagram.com/spiral_tech_official/" target="_blank"><img src="./images/instagram.png" class="me-2" style="width: 40px; height: 40px;" alt="instagram"></a>
+                        <a href="https://www.linkedin.com/company/spiral-tech/?viewAsMember=true" target="_blank"><img src="./images/linkedin.png" class="me-2" style="width: 40px; height: 40px;" alt="linkedin"></a>
+                        <a href="https://x.com/spiraltechoffic?t=e2_OM91D0w_F0NF-NkM-aQ&s=09" target="_blank"><img src="./images/twitter.png" class="me-2" style="width: 40px; height: 40px;" alt="twitter"></a>
                     </div>
                 </div>
 
