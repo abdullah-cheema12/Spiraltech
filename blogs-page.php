@@ -126,7 +126,7 @@
 $apiKey = 'AIzaSyCgI39KFW-afn8DDrmg9W-on_Mjoog6ajY';
 $blogId = '2152023608555043419';
 
-$url = "https://www.googleapis.com/blogger/v3/blogs/$blogId/posts?maxResults=3&key=$apiKey";
+$url = "https://www.googleapis.com/blogger/v3/blogs/$blogId/posts?key=$apiKey";
 $response = file_get_contents($url);
 $posts = json_decode($response, true);
 
@@ -137,6 +137,7 @@ if (!function_exists('getFirstImage')) {
         return (!empty($image['src'])) ? $image['src'] : 'images/port-mobile-8.png'; // Default if no image
     }
 }
+
 if (!empty($posts['items'])) {
     foreach ($posts['items'] as $post) {
         $title = $post['title'];
@@ -145,19 +146,19 @@ if (!empty($posts['items'])) {
         $postUrl = "blog_detail.php?id=" . $postId;
         $thumbnail = getFirstImage($content);
 
-        echo'<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 pe-xl-2 pe-lg-2 pe-0">
+        echo '<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 pe-xl-2 pe-lg-2 pe-0">
                     <div class="col-12 pe-xl-2 pe-lg-2 pe-0">
                         <div class="card my-4" style="width: 100%;">
                             <img class="card-img-top" src="'; echo $thumbnail; 
-                            echo'" alt="Card image cap">
+                            echo '" alt="Card image cap">
                             <div class="card-body">
                                 <h2 class="poppins-bold font-24px text-light-blue">';
                                 echo $title;
-                                echo'</h2>
+                                echo '</h2>
                                 <p class="card-text">';
                                   echo substr(strip_tags($content), 0, 40);
-                                echo'...</p>
-                                <a href="';echo $postUrl;echo'" target="_blank">
+                                echo '...</p>
+                                <a href="'; echo $postUrl; echo '" target="_blank">
                                     <button class="btn-type-2 px-5 py-3 text-white" type="submit">Read More</button>
                                 </a>
                             </div>
