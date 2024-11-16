@@ -39,6 +39,14 @@ if (isset($currentPostId)) {
     <link rel="stylesheet" href="css/style.css">
     <!-- link favicon  -->
     <link rel="shortcut icon" href="./logos/favicon_green.svg" type="image/x-icon">
+    <style>
+        @media (max-width: 950px) {
+            .style-content img{
+                width: 100% !important;
+                height: auto !important; 
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -91,7 +99,7 @@ if (isset($currentPostId)) {
             <?php echo '
         <h1 class="py-3 poppins-bold text-light-blue  style-title">'. $post['title'] .' </h1>';?>
             
-            <div class="poppins-regular"><?php 
+            <div class="poppins-regular style-content" ><?php 
             echo $post['content'];?></div>
             <?php
     } else {
